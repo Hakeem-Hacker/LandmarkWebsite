@@ -1,0 +1,145 @@
+html {
+  padding-top: 40px;
+  background-image: url("./img/about-img.JPG" );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  opacity: 60%;
+  
+}
+
+#title{
+text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+  color: rgb(12, 12, 10);
+  text-transform: uppercase;
+}
+
+#main {
+  width: 40vw;
+  min-width: 400px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: rgba(10, 132, 240, 0.92);
+  box-shadow: 5px 2px 2px rgba(224, 8, 8, 0.479);
+  padding: 10px;
+}
+
+form {
+  margin: auto;
+  display: block;
+  font-size: 18px;
+  margin-left: 5%;
+}
+
+#description {
+  text-align: center;
+  font-style:normal;
+  text-transform: uppercase;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  width: 90%;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+select {
+  width: 92%;
+  height: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  width: auto;
+}
+
+textarea {
+  width: 90%;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  padding: 5px;
+  
+  text-transform: capitalize;
+ 
+
+}
+
+button {
+  margin-top: 10px;
+  font-size: 18px;
+ text-align: center;
+ color: blue;
+ display: flex;
+ justify-content: center;
+ margin: auto;
+ border-radius: 10px;
+ visibility:visible;
+ width: 100px;
+ 
+}
+button:hover{
+  background-color: burlywood;
+  color: black;
+}
+.main-2 a{
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  -ms-text-kashida-space: 10px;
+  color: #fefefe;
+  padding-bottom: 100px;
+  margin-top: 10px;
+  letter-spacing: normal;text-decoration-style: double;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 10px;
+  overflow: hidden;
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+  word-spacing: 10px;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
